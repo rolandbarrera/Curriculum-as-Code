@@ -9,32 +9,7 @@ This guide will walk you through setting up your development environment to use 
    - Download the version for your operating system (Windows, macOS, or Linux)
    - Install following the standard installation process
 
-2. **Install Optional Extensions**
-   
-   After VSCode is installed, add these optional extensions for curriculum development:
-
-   - **Markdown All in One** (`yzhang.markdown-all-in-one`)
-     Enhanced Markdown editing with preview, table of contents, and formatting
-   - **YAML** (`redhat.vscode-yaml`)
-     Syntax highlighting and validation for YAML metadata files
-   - **markdownlint** (`DavidAnson.vscode-markdownlint`)
-     Markdown linting to maintain consistent formatting
-   - **Spell Right** (`ban.spellright`)
-     Spell checking for content creation
-   - **GitLens** (`eamodio.gitlens`)
-     Enhanced Git capabilities for version control visualization
-
-3. **Install Optional Extensions via Command Line**
-   ```bash
-   # Run these commands in VSCode terminal
-   code --install-extension yzhang.markdown-all-in-one
-   code --install-extension redhat.vscode-yaml
-   code --install-extension DavidAnson.vscode-markdownlint
-   code --install-extension ban.spellright
-   code --install-extension eamodio.gitlens
-   ```
-
-4. **Additional Prerequisites**
+2. **Additional Prerequisites**
    - **Git** For version control
    - **Node.js** (optional) For any automation scripts you might add later
 
@@ -146,6 +121,8 @@ For complete Roo Memory Bank setup instructions, follow the official documentati
 
 **[Roo Code Memory Bank Setup Guide](https://github.com/GreatScottyMac/roo-code-memory-bank)**
 
+Settup note: The setup guide directs users to an older location for Modes in Roo. Modes can now be found in the "More Actions(Three Dots)" of the menu bar to the right of the Settings and Account sections.
+
 This guide includes:
 - Memory Bank package installation
 - Configuration and initialization steps
@@ -164,8 +141,8 @@ Roo provides multiple specialized modes that you can switch between:
 ### Switch Between Modes
 
 ```
-@mode architect    # Switch to architecture and planning mode
-@mode code        # Switch to content creation mode  
+@mode architect   # Switch to architecture and planning mode
+@mode code        # Switch to code mode 
 @mode ask         # Switch to question and answer mode
 @mode debug       # Switch to troubleshooting mode
 ```
@@ -175,6 +152,7 @@ Roo provides multiple specialized modes that you can switch between:
 For complete instructions on creating custom Roo modes, follow the official documentation:
 
 **[Roo Custom Modes Guide](https://docs.roocode.com/features/custom-modes#importexport-modes)**
+
 
 This guide covers:
 - Creating custom mode files
@@ -228,6 +206,8 @@ To switch to any of these specialized modes in Roo:
 
 To use these modes, download the individual YAML files from the [`examples/`](../examples/) folder and import them using Roo's custom mode import functionality. Each mode can be imported individually based on your specific needs.
 
+Note: When adding a new mode it is suggested to append the [Code Memory bank module] (https://github.com/GreatScottyMac/roo-code-memory-bank/blob/main/modules/memory_bank_strategy_code.yml) to each modes "Mode-specific Custom Instructions" section. This should keep the memory bank working for each custom ID mode added.
+
 ### Initialize Your Roo Project
 
 1. **Clone the Repository**
@@ -237,9 +217,9 @@ To use these modes, download the individual YAML files from the [`examples/`](..
    ```
 
 2. **Test Roo Integration**
-   Start Roo in Curriculum Designer Mode:
+   Start Roo in Instructional Designer Mode:
    ```
-   @mode curriculum-designer
+   @mode instructional-designer
    "Review my Memory Bank and help me design the course outline"
    ```
 
@@ -247,58 +227,162 @@ To use these modes, download the individual YAML files from the [`examples/`](..
 
 ## Common Workflows
 
-### Creating New Content
+Choose your workflow based on project complexity and team experience level.
 
-1. **Select Appropriate Template**
-   - Browse `templates/` folder
-   - Choose based on delivery method (eLearning, ILT, VILT, Lab)
+### 🚀 Basic Start Workflow
 
-2. **Copy and Customize**
-   ```bash
-   cp -r templates/elearning-module/ my-new-course/
-   cd my-new-course/
-   ```
+**Perfect for**: New curriculum as code developers, simple projects, quick creation
 
-3. **Update Metadata**
-   - Edit `metadata/course-info.yml`
-   - Customize learning objectives
-   - Set target audience information
+#### 1. Project Setup
 
-4. **Create Content**
-   - Use Markdown for all text content
-   - Store media in `assets/` folder
-   - Reference templates for consistency
+**Create Your Project Workspace:**
+```bash
+# Create a dedicated folder for your curriculum project
+mkdir my-curriculum-project
+cd my-curriculum-project
+
+# Open as VSCode workspace
+code .
+```
+
+#### 2. Copy Template and Setup
+
+**Get the Basic Start Template:**
+```bash
+# Copy from your reference repository location
+cp -r ~/Documents/curriculum-as-code/templates/example-project/* ./
+```
+
+#### 3. Configure AI Collaboration
+
+**With Cline:**
+- Initialize the Cline Memory Bank:
+```
+initialize memory bank
+```
+- Start your project:
+```
+I want to create a new curriculum project. Please use the instructions.md as a guide for this project
+```
+
+#### 4. Create Content
+
+- Edit [`instructions.md`](instructions.md) to your specifications
+- Work with Cline to create content in the `content/` folder
+- Store media files in `assets/` folder
+- Use RAG materials in `rag_material/` for additional context
+
+#### 5. Version Control (Optional)
+
+```bash
+# Track changes with git
+git init
+git add .
+git commit -m "Initial curriculum project setup"
+```
+
+---
+
+### ⚡ Pro Mode Workflow
+
+**Perfect for**: Experienced users, complex projects, enterprise-level programs
+
+#### 1. Advanced Project Setup
+
+**Create Your Advanced Project Workspace:**
+```bash
+# Create a dedicated folder for your advanced curriculum project
+mkdir my-advanced-curriculum
+cd my-advanced-curriculum
+
+# Open as VSCode workspace
+code .
+```
+
+#### 2. Copy Pro Mode Template
+
+**Get the Pro Mode Template:**
+```bash
+# Copy from your reference repository location
+cp -r ~/Documents/curriculum-as-code/templates/pro-mode-project/* ./
+```
+
+#### 3. Initialize with Architect Mode
+
+**With Roo:**
+```
+@mode architect
+"I have a new complex curriculum project. Please review the instructions.md and help me plan this curriculum architecture using the Curriculum as Code methodology."
+```
+
+#### 4. Advanced Planning & Development
+
+Roo will:
+- **Review and create a Memory Bank** for context persistence
+- **Plan curriculum architecture** based on your instructions
+- **Utilize enhanced RAG materials** in `rag-materials/` for comprehensive context
+- **Recommend specialized modes** for different phases
+
+#### 5. Switch to Specialized Modes
+
+After planning, use specialized modes for implementation:
+
+```
+@mode instructional-designer-addie    # For ADDIE methodology
+@mode assessment-designer            # For assessment creation
+@mode content-reviewer              # For quality assurance
+```
+
+#### 6. Advanced Version Control
+
+```bash
+# Initialize advanced project management with git
+git init
+git add .
+git commit -m "Initial Pro Mode project setup"
+
+# Set up branching strategy
+git checkout -b develop
+git checkout -b feature/module-1
+```
+
+---
 
 ### Version Control Best Practices
 
-1. **Commit Structure**
-   ```bash
-   git add .
-   git commit -m "feat: add lesson 3 - advanced concepts"
-   git push origin main
-   ```
+**Commit Structure:**
+```bash
+git add .
+git commit -m "feat: add lesson 3 - advanced concepts"
+git push origin main
+```
 
-2. **Branching Strategy**
-   - `main` - stable, reviewed content
-   - `develop` - work in progress
-   - `feature/lesson-name` - individual lessons
+**Branching Strategy:**
+- `main` - stable, reviewed content
+- `develop` - work in progress
+- `feature/lesson-name` - individual lessons
 
-3. **Review Process**
-   - Create pull requests for content review
-   - Use AI assistants for preliminary quality checks
-   - Have subject matter experts review before merging
+**Review Process:**
+- Create pull requests for content review
+- Use AI assistants for preliminary quality checks
+- Have subject matter experts review before merging
 
-### Collaboration Guidelines
+### Collaboration suggestions
 
-1. **Team Setup**
-   - Each team member follows the same setup process
-   - Share Memory Bank configurations across team
-   - Establish consistent naming conventions
+**Team Setup:**
+- Each team member follows the same setup process (Basic Start or Pro Mode)
+- Share Memory Bank configurations across team
+- Establish consistent naming conventions
 
-2. **Content Standards**
-   - Use shared templates and style guides
-   - Regular team reviews of Memory Bank settings
-   - Document decisions in `decisionLog.md` (Roo) or `.cline/rules.md` (Cline)
+**Content Standards:**
+- Use shared templates and style guides
+- Regular team reviews of Memory Bank settings
+- Document decisions in Memory Bank files for persistent context
+
+**Human in the Loop Integration:**
+- Add review gates at content creation, quality assurance, and approval stages
+- Use git workflows for collaborative review and approval processes
+- Leverage specialized AI modes for different team roles and expertise areas
 
 ---
 

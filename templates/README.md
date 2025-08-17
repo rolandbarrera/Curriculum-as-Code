@@ -1,63 +1,31 @@
 # Curriculum Templates
 
-This directory contains templates for different types of curriculum structures. Each template provides a starting point for creating courses, modules, and learning content using the Curriculum as Code methodology.
+Simple starting points for curriculum projects using the Curriculum as Code methodology.
+
+## Quick Start
+
+**Basic Start:** Copy [`example-project/`](example-project) to your project directory
+**Pro Mode:** Copy [`pro-mode-project/`](pro-mode-project) to your project directory
 
 ## Available Templates
 
-### Course Types
+### **[example-project/](example-project)** - Basic Start Template
+Perfect for new curriculum as code developers and simple projects:
+- Simple project structure with content and assets folders
+- Basic RAG materials organization
+- Straightforward AI integration with Cline
+- Minimal setup for quick project creation
 
-- **[eLearning Module](elearning-module/)** Self paced online courses with interactive content
-- **[Instructor Led Training](instructor-led/)** Classroom based courses with facilitator guides
-- **[Virtual ILT (VILT)](vilt/)** Online instructor led sessions with virtual collaboration
-- **[Lab Exercise](lab-exercise/)** Hands on practical training with step by step instructions
+### **[pro-mode-project/](pro-mode-project)** - Pro Mode Template
+Ideal for experienced users and complex enterprise projects:
+- Enhanced RAG materials organization for comprehensive context
+- Memory Bank integration guidance for advanced AI collaboration
+- Specialized AI mode recommendations (ADDIE, Assessment Designer, etc.)
+- Support for complex multi-stakeholder review processes
 
-### Content Blocks
+## What You Get
 
-- **[Assessment Types](content-blocks/assessment-types/)** Reusable assessment templates
-- **[Activity Templates](content-blocks/activity-templates/)** Interactive learning activities
-- **[Content Structures](content-blocks/content-structures/)** Standard content layouts
-
-## Using Templates
-
-1. **Choose the appropriate template** for your curriculum type
-2. **Copy the template folder** to your project location
-3. **Customize the metadata** in `metadata/course-info.yml`
-4. **Replace placeholder content** with your actual curriculum
-5. **Maintain the folder structure** for consistency
-
-## Template Structure
-
-Each template follows this standard structure:
-
-```
-template-name/
-├── content/                 # All curriculum content in Markdown
-├── assets/                  # Media files, images, documents
-├── metadata/                # Course information and configuration
-└── README.md               # Template-specific instructions
-```
-
-## Customization Guidelines
-
-- **Keep folder structures** - They enable tool automation and consistency
-- **Use Markdown format** - Ensures portability and version control
-- **Include metadata** - Enables automation and content management
-- **Follow naming conventions** - Use kebab-case for folders, descriptive names for files
-
-## Contributing Templates
-
-Have a new template idea? Follow these steps:
-
-1. Create the template following the standard structure
-2. Include comprehensive README.md with usage instructions
-3. Add example content that demonstrates best practices
-4. Test the template with real curriculum development
-5. Submit as a pull request with documentation
-
-## Best Practices
-
-- **Start simple** - Use basic templates first, then customize
-- **Maintain consistency** - Follow established patterns and conventions
-- **Document decisions** - Include rationale for template choices
-- **Test thoroughly** - Validate templates with actual content creation
-- **Share improvements** - Contribute enhancements back to the community
+- **Minimal structure** - Just enough to get started, not prescriptive
+- **AI guidance** - Clear prompts to kickstart development with your chosen AI assistant
+- **RAG materials** - Context organization adapted to your project complexity
+- **Flexible approach** - Templates guide rather than dictate your curriculum development
