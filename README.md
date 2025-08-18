@@ -40,7 +40,7 @@ This methodology puts you ahead of the curve by rebuilding your instructional de
 
 Traditional instructional design treats output files as the most sacred assets. PowerPoint presentations, PDF handouts, and eLearning modules become the end goal - the precious deliverables to protect and preserve. This creates content silos where knowledge gets trapped in specific formats, requiring complete rebuilds when you need different modalities.
 
-**Curriculum as Code fundamentally inverts this priority.** Your content becomes the gold - the valuable asset to protect, version, and refine. The outputs (PPT, SCORM, web, mobile) are simply different ways to compile and present that gold. This means you can deploy the same core content to multiple modalities without starting over.
+**Curriculum as Code fundamentally inverts this priority.** Your content becomes the gold, the valuable asset to protect, version, and refine. The outputs (PPT, SCORM, web, mobile) are simply different ways to compile and present that gold. This means you can deploy the same core content to multiple modalities without starting over.
 
 Using software development tools and AI, you treat curriculum development like a software project. You manage your curriculum as code, turning common Instructional Design models into a software development process that preserves your most valuable asset - the content itself.
 
