@@ -257,7 +257,7 @@ git commit -m "first commit"
 
 ---
 
-### ⚡ Pro Mode: Large detailed programs and projects
+### Pro Mode: Large detailed programs and projects
 
 **For experienced users who want full control and advanced AI collaboration.**
 
