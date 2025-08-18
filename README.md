@@ -201,12 +201,12 @@ git clone https://github.com/rolandbarrera/curriculum-as-code.git
 
 **Which approach fits your needs?**
 
-**🚀 Basic Start** - Perfect for:
+** Basic Start** - Perfect for:
 - New curriculum as code developers
 - Quick project creation
 - Simple workflows
 
-**⚡ Pro Mode** - Ideal for:
+** Pro Mode** - Ideal for:
 - Experienced curriculum as code developers
 - Custom project requirements
 - Team collaboration
@@ -215,7 +215,7 @@ git clone https://github.com/rolandbarrera/curriculum-as-code.git
 
 ---
 
-### 🚀 Basic Start: Simple Projects
+### Basic Start: Simple Projects
 
 **Perfect for getting started quickly with proven course structures.**
 
@@ -460,9 +460,6 @@ my-advanced-curriculum/           # Your project workspace
 
 - **[Agent Creation](docs/agents.md)** - Custom AI assistants for ID workflows
 
-- **[Methodology](docs/methodology.md)** - Core principles and best practices
-
-- **[Best Practices](docs/best-practices.md)** - Guidelines for effective curriculum development
 
 
 
