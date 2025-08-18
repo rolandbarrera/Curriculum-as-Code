@@ -151,163 +151,41 @@ The goal is AI-enhanced human collaboration, not AI replacement. Technology hand
 
 ## Quick Start
 
-Transform your curriculum development process in minutes. Choose your path based on your experience level and project needs.
+Transform your curriculum development process in minutes. The Curriculum as Code methodology adapts to your experience level and project complexity.
 
-### Step 1: Create Your Project Workspace
+### Choose Your Approach
 
-**Start by creating a dedicated folder for your curriculum project:**
-
-```bash
-# Create a dedicated folder for your curriculum project
-mkdir my-curriculum-project
-cd my-curriculum-project
-
-# Open as VSCode workspace
-code .
-```
-
-*This keeps your project separate and organized, making it easy to manage and share.*
-
-#### Before You Start
-
-**Required:**
-- ✅ VSCode installed
-- ✅ API key ready (OpenRouter, Anthropic, or OpenAI)
-
-**Optional:**
-- Git (for version control)
-- Node.js (for automation scripts)
-
-### Step 2: Get Reference Materials (One-time setup)
-
-**Get the Curriculum as Code templates and documentation:**
-
-**Option A: Download (No Git Required)**
-- Visit [repository releases](https://github.com/rolandbarrera/curriculum-as-code/releases)
-- Download latest zip file
-- Extract to your preferred location (e.g., `~/Documents/curriculum-as-code/`)
-
-**Option B: Clone with Git**
-```bash
-# Clone to a separate location (NOT inside your project)
-cd ~/Documents        # macOS/Linux
-cd C:\Users\YourName   # Windows
-git clone https://github.com/rolandbarrera/curriculum-as-code.git
-```
-
-*Keep this separate from your project workspace. This is your reference library.*
-
-### Step 3: Choose Your Path
-
-**Which approach fits your needs?**
-
-** Basic Start** - Perfect for:
+**🚀 Basic Start** - Perfect for:
 - New curriculum as code developers
 - Quick project creation
 - Simple workflows
+- Individual projects
 
-** Pro Mode** - Ideal for:
-- Experienced curriculum as code developers
-- Custom project requirements
+**⚡ Pro Mode** - Ideal for:
+- Experienced developers
+- Complex project requirements
 - Team collaboration
 - Advanced AI features
-- Large multi-faceted projects
+- Enterprise-level programs
 
----
+### Two Simple Steps to Get Started
 
-### Basic Start: Simple Projects
+**1. Complete Setup** → Follow our comprehensive [**Setup Guide**](docs/howto.md) to:
+- Install VSCode and configure your environment
+- Set up API access for AI assistants (Cline or Roo)
+- Choose and configure your preferred AI assistant
 
-**Perfect for getting started quickly with proven course structures.**
+**2. Start Creating** → The setup guide includes complete workflows for both:
+- **Basic Start**: Template-based projects with Cline AI assistant
+- **Pro Mode**: Advanced projects with Roo AI assistant and specialized modes
 
-#### 1. Install Cline AI Assistant
+### What You'll Build
 
-- Install Cline extension in VSCode
-- Configure with your API key ([setup guide](docs/howto.md#step-3a-setting-up-cline-with-memory-bank))
-
-#### 2. Set up your curriculum project for AI Collaboration
-
-- Copy contents of templates/example-project to my-curriculum-project
-- Edit instructions.md to your project specifications
-
-#### 3. Start Your Project
-
-- Initialize the Cline Memory bank by running this command within cline 
-```
-initialize memory bank
-```
-- Tell Cline you have instructions for your project.
-```
-I want to create a new curriculum project. Please use the instructions.md as a guide for this project
-```
-Your AI assistant will:
-- Create all files needed for the Cline Memory bank
-- Follow your instructions.md
-
-#### 4. Create content
-- Start working with Cline to create your content, ask questions in plan mode, switch to act mode to create.
-
-#### 5. Optional: Add Version Control
-
-```bash
-# Optional: Track changes with git (recommended for collaboration)
-git init
-git add .
-git commit -m "first commit"
-```
-
----
-
-### Pro Mode: Large detailed programs and projects
-
-**For experienced users who want full control and advanced AI collaboration.**
-
-#### 1. Install and Configure Roo
-
-- Install Roo extension in VSCode
-- Configure with your API key ([detailed setup](docs/howto.md#step-3b-setting-up-roo-with-memory-bank))
-- Import specialized Instructional Designer modes from [`examples/`](examples/)
-
-#### 2. Set up your advanced curriculum project
-
-- Copy contents of [`templates/pro-mode-project`](templates/pro-mode-project) to your project directory
-- Review and customize the pre-configured Memory Bank files
-- Edit [`instructions.md`](templates/pro-mode-project/instructions.md) for your complex project requirements
-
-#### 3. Initialize Project with Architect Mode
-
-**Start with Roo's Architect mode for planning:**
-
-```
-@mode architect
-"I have a new complex curriculum project. Please review the instructions.md and help me plan this curriculum architecture using the Curriculum as Code methodology."
-```
-
-#### 4. Advanced Planning & Development
-
-Roo will:
-- **Review create a Memory Bank** for context persistence
-- **Plan curriculum architecture** based on your instructions
-- **Utilize enhanced RAG materials** for comprehensive context
-- **Recommend specialized modes** for different phases
-
-#### 5. Switch to Specialized Modes
-
-After planning, switch to specialized modes for implementation:
-
-```
-@mode instructional-designer-addie    # For ADDIE methodology
-@mode assessment-designer            # For assessment creation
-@mode content-reviewer              # For quality assurance
-```
-
-#### 6. Optional: Add Version Control
-
-```bash
-# Optional: Advanced project management with git
-git init
-git add .
-git commit -m "Initial Pro Mode project setup"
-```
+Both approaches create organized project workspaces with:
+- **Structured content folders** for your curriculum materials
+- **RAG materials integration** for persistent AI context
+- **Version control ready** for collaboration and change tracking
+- **AI-powered development** with memory bank integration
 
 ---
 
@@ -367,32 +245,15 @@ Add documents that provide background and context:
 
 **Best Practices:** Keep materials in text-based formats (Markdown, TXT, PDF, CSV, JSON, YAML) for optimal AI consumption. Hint: Save PPT files to PDF and Publish existing Rise courses to PDF for easy ingestion to RAG system.
 
-### ✅ Verify Your Setup
+### Ready to Transform Your Process
 
-After each step, check:
-- [ ] Project folder created and opened in VSCode
-- [ ] Reference materials accessible at your chosen location
-- [ ] AI assistant responds to test message
-- [ ] Template copying works correctly (Basic Start) or Memory Bank initializes (Pro Mode)
+The [**Complete Setup Guide**](docs/howto.md) walks you through everything step-by-step, including:
 
-### Common Issues
-
-**"Template not found"**
-- Verify reference repository location
-- Check folder permissions
-- Update template path in AI prompt with your actual location
-
-**"AI assistant not responding"**
-- Verify API key configuration
-- Check internet connection
-- Restart VSCode
-
-### Next Steps
-
-After setup, explore:
-
-- **[Setup Guide](docs/howto.md)** - Detailed configuration instructions
-- **[Examples](examples/)** - Specialized Roo AI modes
+- **Environment Setup**: VSCode installation and configuration
+- **AI Assistant Configuration**: Both Cline and Roo options with API setup
+- **Project Workflows**: Detailed Basic Start and Pro Mode implementation guides
+- **Troubleshooting**: Common issues and solutions
+- **Advanced Features**: Custom AI modes and team collaboration
 
 **Ready to transform your curriculum development process!**
 
@@ -456,9 +317,9 @@ my-advanced-curriculum/           # Your project workspace
 
 ## Documentation
 
-- **[Setup Guide](docs/howto.md)** - Complete VSCode and AI assistant setup
+- **[Complete Setup Guide](docs/howto.md)** - VSCode installation, AI assistant configuration, and detailed workflows
 
-- **[Agent Creation](docs/agents.md)** - Custom AI assistants for ID workflows
+- **[Agent Creation](docs/agents.md)** - Custom AI assistants for instructional design workflows
 
 
 

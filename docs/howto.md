@@ -225,17 +225,10 @@ Note: When adding a new mode it is suggested to append the [Code Memory bank mod
 
 ---
 
-## Common Workflows
+## Step 4: Create Your Project Workspace
 
-Choose your workflow based on project complexity and team experience level.
+Before starting any workflow, create a dedicated workspace for your curriculum project:
 
-### 🚀 Basic Start Workflow
-
-**Perfect for**: New curriculum as code developers, simple projects, quick creation
-
-#### 1. Project Setup
-
-**Create Your Project Workspace:**
 ```bash
 # Create a dedicated folder for your curriculum project
 mkdir my-curriculum-project
@@ -245,7 +238,38 @@ cd my-curriculum-project
 code .
 ```
 
-#### 2. Copy Template and Setup
+*This keeps your project separate and organized, making it easy to manage and share.*
+
+### Get Reference Materials (One-time setup)
+
+**Get the Curriculum as Code templates and documentation:**
+
+**Option A: Download (No Git Required)**
+- Visit [repository releases](https://github.com/rolandbarrera/curriculum-as-code/releases)
+- Download latest zip file
+- Extract to your preferred location (e.g., `~/Documents/curriculum-as-code/`)
+
+**Option B: Clone with Git**
+```bash
+# Clone to a separate location (NOT inside your project)
+cd ~/Documents        # macOS/Linux
+cd C:\Users\YourName   # Windows
+git clone https://github.com/rolandbarrera/curriculum-as-code.git
+```
+
+*Keep this separate from your project workspace. This is your reference library.*
+
+---
+
+## Common Workflows
+
+Choose your workflow based on project complexity and team experience level.
+
+### 🚀 Basic Start Workflow
+
+**Perfect for**: New curriculum as code developers, simple projects, quick creation
+
+#### 1. Copy Template and Setup
 
 **Get the Basic Start Template:**
 ```bash
@@ -253,7 +277,7 @@ code .
 cp -r ~/Documents/curriculum-as-code/templates/example-project/* ./
 ```
 
-#### 3. Configure AI Collaboration
+#### 2. Configure AI Collaboration
 
 **With Cline:**
 - Initialize the Cline Memory Bank:
@@ -265,17 +289,17 @@ initialize memory bank
 I want to create a new curriculum project. Please use the instructions.md as a guide for this project
 ```
 
-#### 4. Create Content
+#### 3. Create Content
 
 - Edit [`instructions.md`](instructions.md) to your specifications
 - Work with Cline to create content in the `content/` folder
 - Store media files in `assets/` folder
 - Use RAG materials in `rag_material/` for additional context
 
-#### 5. Version Control (Optional)
+#### 4. Optional: Add Version Control
 
 ```bash
-# Track changes with git
+# Track changes with git (recommended for collaboration)
 git init
 git add .
 git commit -m "Initial curriculum project setup"
@@ -287,19 +311,7 @@ git commit -m "Initial curriculum project setup"
 
 **Perfect for**: Experienced users, complex projects, enterprise-level programs
 
-#### 1. Advanced Project Setup
-
-**Create Your Advanced Project Workspace:**
-```bash
-# Create a dedicated folder for your advanced curriculum project
-mkdir my-advanced-curriculum
-cd my-advanced-curriculum
-
-# Open as VSCode workspace
-code .
-```
-
-#### 2. Copy Pro Mode Template
+#### 1. Copy Pro Mode Template
 
 **Get the Pro Mode Template:**
 ```bash
@@ -307,7 +319,7 @@ code .
 cp -r ~/Documents/curriculum-as-code/templates/pro-mode-project/* ./
 ```
 
-#### 3. Initialize with Architect Mode
+#### 2. Initialize with Architect Mode
 
 **With Roo:**
 ```
@@ -315,7 +327,7 @@ cp -r ~/Documents/curriculum-as-code/templates/pro-mode-project/* ./
 "I have a new complex curriculum project. Please review the instructions.md and help me plan this curriculum architecture using the Curriculum as Code methodology."
 ```
 
-#### 4. Advanced Planning & Development
+#### 3. Advanced Planning & Development
 
 Roo will:
 - **Review and create a Memory Bank** for context persistence
@@ -323,7 +335,7 @@ Roo will:
 - **Utilize enhanced RAG materials** in `rag-materials/` for comprehensive context
 - **Recommend specialized modes** for different phases
 
-#### 5. Switch to Specialized Modes
+#### 4. Switch to Specialized Modes
 
 After planning, use specialized modes for implementation:
 
@@ -333,10 +345,10 @@ After planning, use specialized modes for implementation:
 @mode content-reviewer              # For quality assurance
 ```
 
-#### 6. Advanced Version Control
+#### 5. Optional: Add Advanced Version Control
 
 ```bash
-# Initialize advanced project management with git
+# Optional: Advanced project management with git
 git init
 git add .
 git commit -m "Initial Pro Mode project setup"
