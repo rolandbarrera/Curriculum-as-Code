@@ -265,7 +265,7 @@ git clone https://github.com/rolandbarrera/curriculum-as-code.git
 
 Choose your workflow based on project complexity and team experience level.
 
-### 🚀 Basic Start Workflow
+### Basic Start Workflow
 
 **Perfect for**: New curriculum as code developers, simple projects, quick creation
 
@@ -307,7 +307,7 @@ git commit -m "Initial curriculum project setup"
 
 ---
 
-### ⚡ Pro Mode Workflow
+### Pro Mode Workflow
 
 **Perfect for**: Experienced users, complex projects, enterprise-level programs
 

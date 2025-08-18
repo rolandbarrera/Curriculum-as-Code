@@ -155,13 +155,13 @@ Transform your curriculum development process in minutes. The Curriculum as Code
 
 ### Choose Your Approach
 
-**🚀 Basic Start** - Perfect for:
+** Basic Start** - Perfect for:
 - New curriculum as code developers
 - Quick project creation
 - Simple workflows
 - Individual projects
 
-**⚡ Pro Mode** - Ideal for:
+** Pro Mode** - Ideal for:
 - Experienced developers
 - Complex project requirements
 - Team collaboration
