@@ -100,27 +100,17 @@ Curriculum as Code applies context engineering and software development best pra
 
 ### Core Capabilities
 
-- **Version Control**: 
+- **Version Control**: Track every change to your curriculum like a codebase
 
-Track every change to your curriculum like a codebase
-
-- **Human in the Loop Collaboration**: 
-
-Enables multiple instructional designers working together seamlessly with AI assistants, maintaining human oversight and review at critical decision points to ensure quality, accuracy, and pedagogical soundness
+- **Human in the Loop Collaboration**: Enables multiple instructional designers working together seamlessly with AI assistants, maintaining human oversight and review at critical decision points to ensure quality, accuracy, and pedagogical soundness
 
 — [How To Use Git to Collaborate with Others [Git Tutorial]](https://www.youtube.com/watch?v=ygqx50-JHEE)
 
-- **Modular Design**: 
+- **Modular Design**: Reusable content blocks and standardized templates
 
-Reusable content blocks and standardized templates
+- **AI Assisted Development**: Leverage Cline or Roo AI assistants for enhanced productivity while preserving human expertise and judgment
 
-- **AI Assisted Development**: 
-
-Leverage Cline or Roo AI assistants for enhanced productivity while preserving human expertise and judgment
-
-- **Documentation Driven**: 
-
-Clear, readable Markdown format for all content
+- **Documentation Driven**: Clear, readable Markdown format for all content
 
 
 
