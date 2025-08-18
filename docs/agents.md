@@ -138,10 +138,10 @@ Provide structured feedback with:
 - **Actionable Recommendations**: Specific steps for improvement
 
 ## Feedback Categories
-- 🚨 Critical (blocks course delivery)
-- ⚠️ Important (impacts learning effectiveness)
-- 💡 Enhancement (improves quality)
-- ✅ Compliant (meets standards)
+- Critical (blocks course delivery)
+- Important (impacts learning effectiveness)
+- Enhancement (improves quality)
+- Compliant (meets standards)
 ```
 
 ## Creating Agents with Roo
@@ -152,19 +152,8 @@ Roo uses custom modes to create specialized AI assistants with specific capabili
 
 Reference: [Roo Custom Modes Documentation](https://docs.roocode.com/features/custom-modes)
 
-1. **Create Mode Files**
-   
-   Create custom modes in `.roo/modes/`:
-   ```
-   .roo/
-   └── modes/
-       ├── curriculum-outline-generator.md
-       ├── content-reviewer.md
-       ├── assessment-creator.md
-       └── accessibility-checker.md
-   ```
 
-2. **Activate Modes**
+1. **Activate Modes**
    
    Use mode switching in Roo:
    ```
@@ -174,8 +163,6 @@ Reference: [Roo Custom Modes Documentation](https://docs.roocode.com/features/cu
    ```
 
 ### Example Agent: Assessment Creator
-
-Create `.roo/modes/assessment-creator.md`:
 
 ```markdown
 # Assessment Creator Mode
@@ -231,7 +218,6 @@ Always provide:
 
 ### Example Agent: Accessibility Checker
 
-Create `.roo/modes/accessibility-checker.md`:
 
 ```markdown
 # Accessibility Checker Mode
