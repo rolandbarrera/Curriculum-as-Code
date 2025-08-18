@@ -20,6 +20,21 @@ AI is transforming the Learning & Development world. You can either adapt or get
 
 This methodology puts you ahead of the curve by rebuilding your content creation process from the ground up, with AI context engineering at its core.
 
+## Table of Contents
+
+- [The Transformation](#the-transformation)
+- [Understanding Context: The Whiteboard Analogy](#understanding-context-the-whiteboard-analogy)
+- [Context Engineering: The Foundation](#context-engineering-the-foundation)
+- [What is Curriculum as Code?](#what-is-curriculum-as-code)
+- [Human in the Loop: The Essential Partnership](#human-in-the-loop-the-essential-partnership)
+- [Quick Start](#quick-start)
+- [RAG Materials: Context for AI Collaboration](#rag-materials-context-for-ai-collaboration)
+- [Repository Structure](#repository-structure)
+- [Documentation](#documentation)
+- [Project Templates](#project-templates)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
 ## The Transformation
 
