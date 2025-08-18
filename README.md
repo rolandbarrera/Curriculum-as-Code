@@ -155,13 +155,13 @@ Transform your curriculum development process in minutes. The Curriculum as Code
 
 ### Choose Your Approach
 
-** Basic Start** - Perfect for:
+**Basic Start** - Perfect for:
 - New curriculum as code developers
 - Quick project creation
 - Simple workflows
 - Individual projects
 
-** Pro Mode** - Ideal for:
+**Pro Mode** - Ideal for:
 - Experienced developers
 - Complex project requirements
 - Team collaboration
@@ -193,12 +193,12 @@ Both approaches create organized project workspaces with:
 
 ### What is RAG
 
-The RAG (Retrieval Augmented Generation) solves the problem of AI losing context between sessions by creating a persistent knowledge base for your project. Without organized context materials, AI tools cannot access information beyond their training data.
+The RAG (Retrieval Augmented Generation) solves the problem of AI not having a complete understanding of you source material. Without orprovided context materials, AI tools cannot access information beyond their training data.
 
-We recommend each new curriculum project includes a `rag-materials/` folder for organizing project context materials that help AI assistants understand your specific requirements and maintain awareness across development sessions. 
+We recommend each new curriculum project includes a `rag-materials/` folder for organizing project context materials that help AI assistants understand your specific source material across sessions. 
 
 ### How It Works
-When interacting with your AI tool (Cline or ROO) you can ask it to either reference the entire rag-material/ folder or specific files within the folder to help the AI gain context on your topic. The `rag-materials/` folder and its contents become a Knowlege Base repository for your project. We understand that this approach to RAG is simple, yet it is effective. We will implememnt more advanced RAG systems in future iterations. 
+When interacting with your AI tool (Cline or Roo) you can ask it to either reference the entire rag-material/ folder or specific files within the folder to help the AI gain context on your topic. The `rag-materials/` folder and its contents become a Knowlege Base repository for your project. We understand that this approach to RAG is simple, yet it is effective. We will implememnt more advanced RAG systems in future iterations. 
 
 **AI Integration:** Reference materials in your prompts:
 ```
@@ -206,7 +206,7 @@ When interacting with your AI tool (Cline or ROO) you can ask it to either refer
 ```
 
 ```
-please ingest templates/pro-mode-project/rag-materials/git.md to assist with the creation of a introductory course outline
+ingest templates/pro-mode-project/rag-materials/git.md then assist with the creation of a introductory course outline using markdown formatting
 ```
 
 **Basic Start Projects** Simple RAG structure:
@@ -314,14 +314,11 @@ my-advanced-curriculum/           # Your project workspace
 - **Customization**: Modify structures without affecting the reference
 
 
-
 ## Documentation
 
 - **[Complete Setup Guide](docs/howto.md)** - VSCode installation, AI assistant configuration, and detailed workflows
 
 - **[Agent Creation](docs/agents.md)** - Custom AI assistants for instructional design workflows
-
-
 
 
 ## Project Templates
