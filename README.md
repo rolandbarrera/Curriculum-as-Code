@@ -56,7 +56,7 @@ This method transforms content creation and pushes the boundaries of what instru
 
 When using any AI tool, you are filling up a context window. Think of the context window like a whiteboard. The more information you write on the board, the more confused your AI tool becomes about the big picture.
 
-AI models process information in units called "tokens" - roughly equivalent to words or word fragments. Each model has a maximum token limit for its context window (typically 8K to 200K+ tokens).
+AI models process information in units called "tokens", roughly equivalent to words or word fragments. Each model has a maximum token limit for its context window (typically 8K to 200K+ tokens).
 
 As you approach this limit, the AI's performance degrades. More critically, using your entire token budget leaves no room for the AI to generate thoughtful responses. This is where AI hallucinations happen most often.
 
