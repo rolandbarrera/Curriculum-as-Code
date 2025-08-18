@@ -104,7 +104,7 @@ Curriculum as Code applies context engineering and software development best pra
 
 - **Human in the Loop Collaboration**: Enables multiple instructional designers working together seamlessly with AI assistants, maintaining human oversight and review at critical decision points to ensure quality, accuracy, and pedagogical soundness
 
-— [How To Use Git to Collaborate with Others [Git Tutorial]](https://www.youtube.com/watch?v=ygqx50-JHEE)
+[How To Use Git to Collaborate with Others [Git Tutorial]](https://www.youtube.com/watch?v=ygqx50-JHEE)
 
 - **Modular Design**: Reusable content blocks and standardized templates
 
@@ -116,7 +116,7 @@ Curriculum as Code applies context engineering and software development best pra
 
 ## Human in the Loop: The Essential Partnership
 
-Curriculum as Code doesn't remove humans from the development process—it empowers more meaningful human participation.
+Curriculum as Code doesn't remove humans from the development process, it empowers more meaningful human participation.
 
 Traditional curriculum development often forces one person to wear multiple hats, juggling content creation, review, quality assurance, and project management. This methodology opens up the entire development process, allowing teams to add Human in the Loop gates wherever they add value.
 
@@ -127,7 +127,7 @@ The methodology adopts proven software development practices for curriculum team
 
 **Flexible Review Gates**
 
-Add content review checkpoints at any stage—from initial concept to final delivery. Subject matter experts, instructional designers, accessibility specialists, or learners themselves can provide feedback when it matters most.
+Add content review checkpoints at any stage, from initial concept to final delivery. Subject matter experts, instructional designers, accessibility specialists, or learners themselves can provide feedback when it matters most.
 
 **Collaborative Workflows**
 
