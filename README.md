@@ -279,7 +279,7 @@ git commit -m "first commit"
 
 ```
 @mode architect
-"I have a new complex curriculum project and advanced RAG materials. Please review the instructions.md and help me plan this curriculum architecture using the Curriculum as Code methodology."
+"I have a new complex curriculum project. Please review the instructions.md and help me plan this curriculum architecture using the Curriculum as Code methodology."
 ```
 
 #### 4. Advanced Planning & Development
