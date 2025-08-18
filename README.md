@@ -18,7 +18,7 @@ Code
 ```
 AI is transforming the Learning & Development world. You can either adapt or get left behind.
 
-This methodology puts you ahead of the curve by rebuilding your content creation process from the ground up, with AI context engineering at its core.
+This methodology puts you ahead of the curve by rebuilding your instructional design content creation process from the ground up, with AI context engineering at its core.
 
 ## Table of Contents
 
@@ -102,9 +102,7 @@ Curriculum as Code applies context engineering and software development best pra
 
 - **Version Control**: Track every change to your curriculum like a codebase
 
-- **Human in the Loop Collaboration**: Enables multiple instructional designers working together seamlessly with AI assistants, maintaining human oversight and review at critical decision points to ensure quality, accuracy, and pedagogical soundness
-
-[How To Use Git to Collaborate with Others [Git Tutorial]](https://www.youtube.com/watch?v=ygqx50-JHEE)
+- **Human in the Loop Collaboration**: Enables multiple instructional designers working together seamlessly with AI assistants, maintaining human oversight and review at critical decision points to ensure quality, accuracy, and pedagogical soundness [How To Use Git to Collaborate with Others [Git Tutorial]](https://www.youtube.com/watch?v=ygqx50-JHEE)
 
 - **Modular Design**: Reusable content blocks and standardized templates
 
