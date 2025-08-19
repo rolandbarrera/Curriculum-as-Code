@@ -16,7 +16,7 @@ Reference: [Cline Memory Bank Project Specific Rules](https://docs.cline.bot/pro
 
 1. **Create Agent Rule Files**
    
-   Create separate rule files for each agent in `.cline/agents/`:
+   Create separate agent file for each agent in `.cline/agents/`:
    ```
    .cline/
    ├── agents/
@@ -29,7 +29,7 @@ Reference: [Cline Memory Bank Project Specific Rules](https://docs.cline.bot/pro
 
 2. **Configure Agent Specific Rules**
    
-   Update `.cline/rules.md` to reference agents:
+   Append `.cline/instructions.md` to reference agents:
    ```markdown
    # Cline Rules for Curriculum as Code
    

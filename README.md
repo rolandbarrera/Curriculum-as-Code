@@ -327,10 +327,6 @@ my-advanced-curriculum/           # Your project workspace
 
 - **Curriculum Starter** - Simple project structure with basic folders and guidance
 
-## Contributing
-
-We welcome contributions! See our [contribution guidelines](.github/CONTRIBUTING.md) for details.
-
 
 ## License
 
@@ -344,8 +340,6 @@ Templates and examples are available under CC BY 4.0 for educational sharing.
 - **Issues**: Report bugs or request features via GitHub Issues
 
 - **Discussions**: Join community discussions in GitHub Discussions
-
-- **Documentation**: Check the [`docs/`](docs/) folder for comprehensive guides
 
 
 ---

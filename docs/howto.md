@@ -100,6 +100,8 @@ For complete Cline Memory Bank setup and usage instructions, follow the official
 
 **[Cline Memory Bank Setup Guide](https://docs.cline.bot/prompting/cline-memory-bank)**
 
+NOTE: For the Curriculum as Code example workspace, add the[Cline Memory Bank Custom Instructions content](https://docs.cline.bot/prompting/cline-memory-bank#getting-started-with-memory-bank) to the top of the .clinerules/instructions.md file. 
+
 Cline's Memory Bank automatically manages project context through simple commands. No manual file creation needed.
 
 ---
@@ -280,18 +282,19 @@ cp -r ~/Documents/curriculum-as-code/templates/example-project/* ./
 #### 2. Configure AI Collaboration
 
 **With Cline:**
+- Edit [`.clinerules/instructions.md`](.clinerules/instructions.md) to your specifications. If you decide to implement additional Agents you can specify instructions in this file as well.
+
 - Initialize the Cline Memory Bank:
 ```
 initialize memory bank
 ```
 - Start your project:
 ```
-I want to create a new curriculum project. Please use the instructions.md as a guide for this project
+I want to create a new curriculum project. Please use the .clinerules/instructions as a guide for this project
 ```
 
 #### 3. Create Content
 
-- Edit [`instructions.md`](instructions.md) to your specifications
 - Work with Cline to create content in the `content/` folder
 - Store media files in `assets/` folder
 - Use RAG materials in `rag_material/` for additional context

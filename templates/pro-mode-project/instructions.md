@@ -1,4 +1,4 @@
-# Pro Mode Project Instructions - {Title of your project}
+# Project Instructions - {Title of your project}
 
 ## Project Overview
 Advanced curriculum project for complex, enterprise-level learning programs. This project will focus on building a multi-modal course on the topic on "How to use Git for Curriculum Developemnt Collaboration"  
@@ -8,6 +8,7 @@ Advanced curriculum project for complex, enterprise-level learning programs. Thi
 2. Target audience: Advanced learners with specialized needs for treating Curriculum as Code using Git
 3. Output: Enterprise-grade learning solutions (SCORM, xAPI, etc.)
 4. Quality requirements: Accessibility compliance, comprehensive review processes
+5. Any project files and folders associated with the project will be created within ./content folder at the root of this project.
 
 ## Advanced Features
 - **Memory Bank Integration:** AI assistants maintain context across extended development sessions
