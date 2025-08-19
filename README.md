@@ -292,11 +292,13 @@ curriculum-as-code/                # Reference repository (~/Documents/)
 **Basic Start Projects:**
 ```
 my-curriculum-project/            # Your project workspace
+├── .clinerules                   # Cline Rules Folder
+    └── 01-memory-bank.md         # Cline Memory Bank instructions
+    └── 02-instructions.md        # Your project custom instructions
 ├── content/                      # Your curriculum content
 ├── assets/                       # Your media files
 ├── rag-materials/                # Project context materials
 │   └── README.md                 # Organization guidance
-├── instructions.md               # Project setup guide
 └── (optional) .git/              # Your version control
 ```
 
