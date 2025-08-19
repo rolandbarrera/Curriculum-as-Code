@@ -104,7 +104,7 @@ For complete Cline Memory Bank setup and usage instructions, follow the official
 
 **[Cline Memory Bank Setup Guide](https://docs.cline.bot/prompting/cline-memory-bank)**
 
-NOTE: For the Curriculum as Code example workspace, add the [Cline Memory Bank Custom Instructions content](https://docs.cline.bot/prompting/cline-memory-bank#getting-started-with-memory-bank) to the top of the `.clinerules/instructions.md` file. 
+NOTE: For the Curriculum as Code example workspace, we will add the [Cline Memory Bank Custom Instructions content](https://docs.cline.bot/prompting/cline-memory-bank#getting-started-with-memory-bank) to a file named `.clinerules/01-memory-bank.md` file. 
 
 Cline's Memory Bank automatically manages project context through simple commands. No manual file creation needed.
 
@@ -160,7 +160,7 @@ cp -r ~/Documents/curriculum-as-code/templates/example-project/* ./
 
 ##### 2. Configure Cline Collaboration
 
-- Edit [`.clinerules/instructions.md`](.clinerules/instructions.md) to your specifications. If you decide to implement additional Agents you can specify instructions in this file as well.
+- Edit [`.clinerules/02-instructions.md`](.clinerules/02-instructions.md) to your specifications. If you decide to implement additional Agents you can specify instructions in this file as well.
 
 - Initialize the Cline Memory Bank:
 ```
@@ -201,7 +201,7 @@ cp -r ~/Documents/curriculum-as-code/templates/pro-mode-project/* ./
 
 ##### 2. Configure Advanced Cline Setup
 
-- Edit `.clinerules/instructions.md` to your specifications for the more complex project
+- Edit `.clinerules/02-instructions.md` to your specifications for the more complex project
 - Initialize the Cline Memory Bank:
 ```
 initialize memory bank
@@ -210,7 +210,7 @@ initialize memory bank
 ##### 3. Advanced Planning with Cline
 
 ```
-I have a complex curriculum project. Please review the instructions.md and rag-materials/ folder to understand the full context, then help me plan this curriculum architecture using the Curriculum as Code methodology.
+I have a complex curriculum project. Please review the 02-instructions.md and rag-materials/ folder to understand the full context, then help me plan this curriculum architecture using the Curriculum as Code methodology.
 ```
 
 ##### 4. Enhanced Content Development
@@ -238,7 +238,7 @@ git checkout -b feature/module-1
 
 **Team Setup:**
 - Each team member follows the same Cline setup process
-- Share Memory Bank configurations and `.clinerules/instructions.md` across team
+- Share Memory Bank configurations and `.clinerules/02-instructions.md` across team
 - Establish consistent naming conventions
 
 **Content Standards:**

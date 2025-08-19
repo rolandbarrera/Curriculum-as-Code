@@ -189,6 +189,14 @@ Both approaches create organized project workspaces with:
 - **Version control ready** for collaboration and change tracking
 - **AI-powered development** with memory bank integration
 
+### 📺 Quick Start Demo
+
+Watch this 10-minute demonstration of the complete Curriculum as Code workflow, from initial setup through content creation:
+
+[![Curriculum as Code - Quick Start Demo](https://img.youtube.com/vi/fHHDYrxYOMQ/maxresdefault.jpg)](https://youtu.be/fHHDYrxYOMQ)
+
+*Click the thumbnail above to watch the full demonstration on YouTube*
+
 ---
 
 ## RAG Materials: Context for AI Collaboration
