@@ -195,7 +195,7 @@ Watch this 10-minute demonstration of the complete Curriculum as Code workflow, 
 
 [![Curriculum as Code - Quick Start Demo](https://img.youtube.com/vi/fHHDYrxYOMQ/maxresdefault.jpg)](https://youtu.be/fHHDYrxYOMQ)
 
-*Click the thumbnail above to watch the full demonstration on YouTube*
+*CTRL/Command + Click the thumbnail above to watch the full demonstration on YouTube in another tab*
 
 ---
 
