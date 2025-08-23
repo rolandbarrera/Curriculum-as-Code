@@ -340,9 +340,9 @@ my-advanced-curriculum/           # Your project workspace
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). See the [LICENSE.md](LICENSE.md) file for details.
 
-Templates and examples are available under CC BY 4.0 for educational sharing.
+You are free to share, adapt, and build upon this material for non-commercial purposes, as long as you provide attribution and distribute any derivative works under the same license.
 
 
 ## Support
